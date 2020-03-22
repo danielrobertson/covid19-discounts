@@ -22,7 +22,6 @@ function ProductList({ products }) {
       "Moog and Korg are offering synth apps for free while we’re all stuck at home",
     tags: ["music", "mobile app"]
   };
-
   products.push(product);
   console.log(products);
   const productList = products.map(p => <Product key={p.url} product={p} />);
