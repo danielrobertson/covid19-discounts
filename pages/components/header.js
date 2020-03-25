@@ -49,7 +49,7 @@ function Header() {
                 color="white"
                 fontSize="2xl"
                 letterSpacing={0.5}
-                px="5px"
+                px="15px"
               >
                 To help you{" "}
                 <Link href="https://www.flattenthecurve.com/">
