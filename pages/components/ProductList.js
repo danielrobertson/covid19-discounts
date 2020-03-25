@@ -45,7 +45,11 @@ function ProductList({ products }) {
     </Box>
   ));
   return (
-    <Grid templateColumns="repeat(auto-fill, minmax(450px, 1fr))" gap={6}>
+    <Grid
+      mx={10}
+      templateColumns="repeat(auto-fill, minmax(370px, 1fr))"
+      gap={6}
+    >
       {productList}
     </Grid>
   );

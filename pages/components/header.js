@@ -49,8 +49,13 @@ function Header() {
                 color="white"
                 fontSize="2xl"
                 letterSpacing={0.5}
+                px="5px"
               >
-                In the era of COVID-19 and social distancing recommendations
+                To help you{" "}
+                <Link href="https://www.flattenthecurve.com/">
+                  stay home to flatten the curve
+                </Link>{" "}
+                during COVID-19
               </Text>
             </Flex>
             <Flex justify="center"></Flex>
