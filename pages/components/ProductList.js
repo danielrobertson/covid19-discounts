@@ -8,7 +8,7 @@ import {
   Text,
   Badge,
   Link,
-  Flex
+  Grid
 } from "@chakra-ui/core";
 import Product from "./Product";
 
@@ -23,9 +23,32 @@ function ProductList({ products }) {
     tags: ["music", "mobile app"]
   };
   products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
+  products.push(product);
   console.log(products);
-  const productList = products.map(p => <Product key={p.url} product={p} />);
-  return <Box>{productList}</Box>;
+  const productList = products.map(p => (
+    <Box>
+      <Product key={p.url} product={p} />
+    </Box>
+  ));
+  return (
+    <Grid templateColumns="repeat(auto-fill, minmax(450px, 1fr))" gap={6}>
+      {productList}
+    </Grid>
+  );
 }
 
 export default ProductList;

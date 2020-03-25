@@ -32,12 +32,19 @@ function Header() {
         <Flex justify="center">
           <Stack mt="190px">
             <Flex justify="center">
-              <Heading mb={4} color="white" fontSize="6xl" letterSpacing={0.5}>
+              <Heading
+                textAlign="center"
+                mb={4}
+                color="white"
+                fontSize="6xl"
+                letterSpacing={0.5}
+              >
                 Discounted Products
               </Heading>
             </Flex>
             <Flex justify="center">
               <Text
+                textAlign="center"
                 fontWeight="semibold"
                 color="white"
                 fontSize="2xl"
