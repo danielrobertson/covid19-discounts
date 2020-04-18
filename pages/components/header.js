@@ -16,7 +16,7 @@ import {
   Flex,
   Avatar,
   PseudoBox,
-  Heading
+  Heading,
 } from "@chakra-ui/core";
 
 function Header() {
@@ -52,9 +52,11 @@ function Header() {
                 px="15px"
               >
                 To help you{" "}
-                <Link href="https://www.flattenthecurve.com/">
-                  stay home to flatten the curve
-                </Link>{" "}
+                <u>
+                  <Link href="https://www.flattenthecurve.com/">
+                    stay home to flatten the curve
+                  </Link>{" "}
+                </u>
                 during COVID-19
               </Text>
             </Flex>

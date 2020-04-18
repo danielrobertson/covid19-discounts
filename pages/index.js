@@ -14,6 +14,14 @@ function Index() {
       tags: ["learning"],
     },
     {
+      url: "https://www.apple.com/logic-pro/",
+      image:
+        "https://i.pinimg.com/originals/c0/66/b4/c066b4ff306f1ae970245a36fab14a52.png",
+      description:
+        "Apple is offering free 90-day trial to its music editing app",
+      tags: ["music", "software"],
+    },
+    {
       url:
         "https://www.theverge.com/2020/3/16/21181915/synth-apps-free-moog-korg-kaossilator-minimoog-model-d-coronavirus",
       image:
@@ -36,7 +44,22 @@ function Index() {
       image:
         "https://www.metopera.org/globalassets/user-information/nightly-opera-streams/week-5/rus-1600x685.jpg",
       description: "Free Nightly Met Opera Streams",
-      tags: ["entertainment"],
+      tags: ["entertainment", "music"],
+    },
+    {
+      url: "https://www.apple.com/final-cut-pro/trial/",
+      image:
+        "https://ttraining.mystagingwebsite.com/wp-content/uploads/2014/05/final-cut-pro-x1.jpg",
+      description:
+        "Apple is offering free 90-day trial to its video editing app",
+      tags: ["video", "software"],
+    },
+    {
+      url: "https://www.digitalconcerthall.com/en/live",
+      image: "https://images-na.ssl-images-amazon.com/images/I/51bs4gTHPZL.png",
+      description:
+        "Berliner Philharmoniker is offering its library of more than 600 performances for free when you use the code BERLINPHIL.",
+      tags: ["entertainment", "music"],
     },
     {
       url:
@@ -79,7 +102,7 @@ function Index() {
         "https://cdn3.movieweb.com/i/article/kjeOBNjT9WdYMq1yjGaj1h3Gl1rGNT/798:75/Levar-Burton-Read-To-Families-Free-Book-Catalog.jpg",
       description:
         "Reading Rainbow Host LeVar Burton Wants to Read to Families for Free",
-      tags: ["learning", "books"],
+      tags: ["books"],
     },
     {
       url:
@@ -89,6 +112,56 @@ function Index() {
       description:
         "During coronavirus crisis, Fender is offering free online guitar lessons for 3 months to first 100,000 people",
       tags: ["music", "learning"],
+    },
+    {
+      url:
+        "https://www.scribd.com/?campaign=SkimbitLtd&ad_group=45704X1167592X4d1134d5ba0d3cfb74663b69f46c3a4d&keyword=660149026&source=hp_affiliate&medium=affiliate",
+      image:
+        "https://s30113.pcdn.co/wp-content/uploads/2019/11/p1dqkvfur910v171e3q8urd16h86.png",
+      description:
+        "Scribd e-books offering a free 30-day trial that gives you access to more than a million titles",
+      tags: ["books"],
+    },
+    {
+      url:
+        "https://smile.amazon.com/kindle-dbs/hz/subscribe/ku?sa-no-redirect=1&*entries*=0&_encoding=UTF8&*Version*=1&shoppingPortalEnabled=true",
+      image:
+        "https://thebombaybibliophile.files.wordpress.com/2018/07/kindle-unlimited-logo-cropped-360x270.jpg?w=1086",
+      description:
+        "Two-month free subscription to Amazon’s Kindle Unlimited, which has a library stocked with more than a million free titles.",
+      tags: ["books"],
+    },
+    {
+      url: "https://gamepass.nfl.com/packages",
+      image:
+        "https://media.foxbusiness.com/BrightCove/854081161001/202002/1582/854081161001_6129184572001_6129186164001-vs.jpg",
+      description:
+        "Through May 31, the NFL is extending complimentary access to NFL Game Pass, which offers a library full of football programing and game replays",
+      tags: ["entertainment", "sports"],
+    },
+    {
+      url:
+        "https://www.sling.com/deals/sling-free?AID=12103878&PID=5513721&SID=AwEAAAAAAAAAAbZT&cvosrc=affiliate.cj.5513721&adid=12103878&af=1&utm_medium=affiliate&utm_source=cj&utm_campaign=5513721&utm_content=12103878&cjevent=1927023181a211ea820f01950a1c0e10",
+      image:
+        "https://www.sling.com/content/dam/sling-tv/sling-logos/sling_logo_new.svg",
+      description:
+        "Sling TV is offering free access to select on-demand movies, television shows, and ABC News Live",
+      tags: ["entertainment"],
+    },
+    {
+      url: "https://www.purebarre.com/go",
+      image:
+        "https://www.zonarosa.com/wp-content/uploads/2020/01/ZR__0037_Pure-Barre.png",
+      description:
+        "Pure Barre studio is offering Pure Barre On Demand free for 30 days with code EXTENDEDTRIAL",
+      tags: ["fitness"],
+    },
+    {
+      url: "https://www.facebook.com/planetfitness/",
+      image: "",
+      description:
+        "Planet Fitness is streaming live, at-home workouts for free on its Facebook page daily at 7pm EST",
+      tags: [""],
     },
   ];
   return (
