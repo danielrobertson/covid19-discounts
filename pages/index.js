@@ -49,7 +49,7 @@ function Index() {
     {
       url: "https://www.leveluptutorials.com/",
       image:
-        "https://pbs.twimg.com/profile_images/2106132366/leveluptuts-square-medium_400x400.png",
+        "https://thundernerds.io/wp-content/uploads/2016/03/scott.tolinski.jpg",
       description:
         "Scott Tolinksi's web dev courses and the yearly subscription (Level Up Pro) 50% off",
       tags: ["learning"],
