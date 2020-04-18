@@ -13,6 +13,22 @@ function Index() {
       description: "Join PluralSight for #FREEapril",
       tags: ["learning"],
     },
+
+    {
+      ur: "https://learn.masterclass.com/masterclasslive?",
+      image:
+        "https://i.pcmag.com/imagery/reviews/01z1Wiwp9R06Y8QrNB59ROo-4.fit_scale.size_1028x578.v_1569480565.jpg",
+      description:
+        "MasterClass Live is offering one free streaming class per week",
+      tags: ["learning"],
+    },
+    {
+      url: "https://www.digitalconcerthall.com/en/live",
+      image: "https://images-na.ssl-images-amazon.com/images/I/51bs4gTHPZL.png",
+      description:
+        "Berliner Philharmoniker is offering its library of more than 600 performances for free when you use the code BERLINPHIL.",
+      tags: ["entertainment", "music"],
+    },
     {
       url: "https://www.apple.com/logic-pro/",
       image:
@@ -53,13 +69,6 @@ function Index() {
       description:
         "Apple is offering free 90-day trial to its video editing app",
       tags: ["video", "software"],
-    },
-    {
-      url: "https://www.digitalconcerthall.com/en/live",
-      image: "https://images-na.ssl-images-amazon.com/images/I/51bs4gTHPZL.png",
-      description:
-        "Berliner Philharmoniker is offering its library of more than 600 performances for free when you use the code BERLINPHIL.",
-      tags: ["entertainment", "music"],
     },
     {
       url:
@@ -154,7 +163,7 @@ function Index() {
         "https://www.zonarosa.com/wp-content/uploads/2020/01/ZR__0037_Pure-Barre.png",
       description:
         "Pure Barre studio is offering Pure Barre On Demand free for 30 days with code EXTENDEDTRIAL",
-      tags: ["fitness"],
+      tags: ["fitness", "health"],
     },
     {
       url: "https://www.facebook.com/planetfitness/",
@@ -162,7 +171,24 @@ function Index() {
         "https://www.stratfordcrossing.com/wp-content/uploads/2018/03/stratford_planet_fitness.jpg",
       description:
         "Planet Fitness is streaming live, at-home workouts for free on its Facebook page daily at 7pm EST",
-      tags: ["fitness"],
+      tags: ["fitness", "health"],
+    },
+    {
+      ur: "https://app.aurahealth.io/redeem",
+      image:
+        "https://www.popsci.com/resizer/hhZUwY_qYywBmoCvRIAKbz0FOxY=/760x570/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/VHLYLRJNWOLUB62ZVSFYPBNUJY.jpg",
+      description:
+        "Aura, a meditation app, is offering a free 3-month subscription when you use the code FINDPEACE2020",
+      tags: ["health"],
+    },
+    {
+      ur:
+        "https://www.globenewswire.com/news-release/2020/03/25/2006613/0/en/Verizon-to-give-customers-learning-tools-and-premium-TV-at-no-additional-cost-to-assist-with-new-at-home-realities.html",
+      image:
+        "https://www.nerdwallet.com/assets/blog/wp-content/uploads/2016/05/New-Logo.png",
+      description:
+        "Verizon is giving its customers access to online learning and study support like Quizful and Chegg",
+      tags: ["learning"],
     },
   ];
   return (
