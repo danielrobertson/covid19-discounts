@@ -41,7 +41,7 @@ function Index() {
       url:
         "https://www.theverge.com/2020/3/16/21181915/synth-apps-free-moog-korg-kaossilator-minimoog-model-d-coronavirus",
       image:
-        "https://cdn.vox-cdn.com/thumbor/qddoUUO-My0VeIVGOy9dUdUVYg4=/0x0:640x365/920x613/filters:focal(269x132:371x234):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66508573/dims.0.jpg",
+        "https://tonedeaf.thebrag.com/wp-content/uploads/2020/03/Moog-768x435.jpg",
       description:
         "Moog and Korg are offering synth apps for free while we’re all stuck at home",
       tags: ["music", "mobile app"],
@@ -74,7 +74,7 @@ function Index() {
       url:
         "https://www.theverge.com/2020/4/2/21204243/nikon-free-photography-classes-april",
       image:
-        "https://cdn.vox-cdn.com/thumbor/KHBb41S_1wTDzIkrAMyK0v-YeDk=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66593046/cwelch_180808_2891_3797.0.jpg",
+        "https://cnet3.cbsistatic.com/img/mHjtJmZrXrPO8U3L9ThRe0LFHpY=/940x0/2019/10/09/c4f49e5f-459e-4c9f-bfc9-9e4e9d6256d5/nikon-z50-10.jpg",
       description:
         "Nikon is offering free online photography classes for all of April",
       tags: ["photography", "learning"],
