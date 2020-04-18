@@ -158,10 +158,11 @@ function Index() {
     },
     {
       url: "https://www.facebook.com/planetfitness/",
-      image: "",
+      image:
+        "https://www.stratfordcrossing.com/wp-content/uploads/2018/03/stratford_planet_fitness.jpg",
       description:
         "Planet Fitness is streaming live, at-home workouts for free on its Facebook page daily at 7pm EST",
-      tags: [""],
+      tags: ["fitness"],
     },
   ];
   return (
