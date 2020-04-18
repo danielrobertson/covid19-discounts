@@ -52,11 +52,9 @@ function Header() {
                 px="15px"
               >
                 To help you{" "}
-                <u>
-                  <Link href="https://www.flattenthecurve.com/">
-                    stay home to flatten the curve
-                  </Link>{" "}
-                </u>
+                <Link href="https://www.flattenthecurve.com/">
+                  stay home to <u>flatten the curve</u>
+                </Link>{" "}
                 during COVID-19
               </Text>
             </Flex>
