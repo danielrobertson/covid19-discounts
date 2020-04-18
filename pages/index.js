@@ -26,7 +26,7 @@ function Index() {
       url: "https://www.digitalconcerthall.com/en/live",
       image: "https://images-na.ssl-images-amazon.com/images/I/51bs4gTHPZL.png",
       description:
-        "Berliner Philharmoniker is offering its library of more than 600 performances for free when you use the code BERLINPHIL.",
+        "Berliner Philharmoniker is offering its library of 600+ performances for free with promo code BERLINPHIL",
       tags: ["entertainment", "music"],
     },
     {
@@ -85,7 +85,7 @@ function Index() {
       image:
         "https://i.insider.com/5ca4d785c6cc505a7e73606b?width=700&format=jpeg&auto=webp",
       description:
-        "Yale University is offering a free course online, The Science of Well-Being, that teaches you how to be happier.",
+        "Yale University is offering a free course online, The Science of Well-Being, that teaches you how to be happier",
       tags: ["learning"],
     },
     {
@@ -137,7 +137,7 @@ function Index() {
       image:
         "https://thebombaybibliophile.files.wordpress.com/2018/07/kindle-unlimited-logo-cropped-360x270.jpg?w=1086",
       description:
-        "Two-month free subscription to Amazon’s Kindle Unlimited, which has a library stocked with more than a million free titles.",
+        "Two-month free subscription to Amazon’s Kindle Unlimited, which has a library stocked with more than a million free titles",
       tags: ["books"],
     },
     {
