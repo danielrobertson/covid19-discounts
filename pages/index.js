@@ -17,7 +17,7 @@ function Index() {
       url:
         "https://www.theverge.com/2020/3/16/21181915/synth-apps-free-moog-korg-kaossilator-minimoog-model-d-coronavirus",
       image:
-        "https://cdn.vox-cdn.com/thumbor/qddoUUO-My0VeIVGOy9dUdUVYg4=/0x0:640x365/920x613/filters:focal(269x132:371x234):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66508573/dims.0.jpg",
+        "https://cdn10.bigcommerce.com/s-6n1vp2/products/1973/images/6493/111__93691.1549410235.1280.1280.jpg?c=2",
       description:
         "Moog and Korg are offering synth apps for free while we’re all stuck at home",
       tags: ["music", "mobile app"],
