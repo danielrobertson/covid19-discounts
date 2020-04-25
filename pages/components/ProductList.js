@@ -1,15 +1,6 @@
 import React from "react";
 
-import {
-  Box,
-  PseudoBox,
-  Stack,
-  Image,
-  Text,
-  Badge,
-  Link,
-  Grid,
-} from "@chakra-ui/core";
+import { Box, Grid } from "@chakra-ui/core";
 import Product from "./Product";
 
 function ProductList({ products }) {

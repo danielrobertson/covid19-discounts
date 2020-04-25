@@ -1,23 +1,6 @@
 import React from "react";
 
-import {
-  Box,
-  ThemeProvider,
-  ColorModeProvider,
-  LightMode,
-  CSSReset,
-  Stack,
-  Image,
-  Text,
-  Link,
-  Divider,
-  Button,
-  Icon,
-  Flex,
-  Avatar,
-  PseudoBox,
-  Heading,
-} from "@chakra-ui/core";
+import { Box, Stack, Text, Link, Flex, Heading } from "@chakra-ui/core";
 
 function Header() {
   return (
@@ -51,10 +34,10 @@ function Header() {
                 letterSpacing={0.5}
                 px="15px"
               >
-                To help you{" "}
+                To help you stay home to{" "}
                 <Link href="https://www.flattenthecurve.com/">
-                  stay home to <u>flatten the curve</u>
-                </Link>{" "}
+                  <u>flatten the curve</u>{" "}
+                </Link>
                 during COVID-19
               </Text>
             </Flex>
