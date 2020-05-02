@@ -36,8 +36,8 @@ function Header() {
               >
                 To help you stay home to{" "}
                 <Link href="https://www.flattenthecurve.com/">
-                  <u>flatten the curve</u>{" "}
-                </Link>
+                  <u>flatten the curve</u>
+                </Link>{" "}
                 during COVID-19
               </Text>
             </Flex>
