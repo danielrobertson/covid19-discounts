@@ -8,7 +8,7 @@ import {
   Text,
   Badge,
   Link,
-  Flex
+  Flex,
 } from "@chakra-ui/core";
 
 export default function Product({ product }) {
@@ -16,7 +16,7 @@ export default function Product({ product }) {
     <PseudoBox
       _hover={{
         boxShadow:
-          "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)"
+          "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
       }}
       m="40px"
       maxW="md"
@@ -29,11 +29,11 @@ export default function Product({ product }) {
         <Stack>
           <Image rounded="md" src={product.image} />
           <Stack p="15px">
-            <Text fontWeight="semibold" fontSize="2xl">
+            <Text fontWeight="semibold" fontSize={["xl", "2xl", "2xl", "2xl"]}>
               {product.description}
             </Text>
             <Text color="gray.600" fontWeight="bold" fontSize="sm">
-              {product.tags.map(t => (
+              {product.tags.map((t) => (
                 <Badge key={t} rounded="lg" mr={3}>
                   {t}
                 </Badge>
@@ -48,6 +48,6 @@ export default function Product({ product }) {
 
 export async function getServerSideProps(context) {
   return {
-    props: {} // will be passed to the page component as props
+    props: {}, // will be passed to the page component as props
   };
 }

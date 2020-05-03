@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  Box,
   Grid,
   Input,
   Stack,
@@ -29,18 +30,31 @@ function ProductList({ products }) {
         return p;
       }
     })
-    .map((p) => <Product key={p.url} product={p} />);
+    .map((p) => (
+      <Box>
+        <Product key={p.url} product={p} />
+      </Box>
+    ));
 
   return (
     <Stack>
-      <Flex justifyContent="flex-end" paddingTop={3} paddingRight="150px">
+      <Flex
+        justifyContent="flex-end"
+        paddingTop={3}
+        paddingRight={["30px", "150px", "150px", "150px"]}
+      >
         <InputGroup>
           <Input
             value={searchValue}
             onChange={handleSearchInput}
             placeholder="Search..."
             size="lg"
-            w="300px"
+            w={[
+              "200px", // base
+              "200px", // 480px upwards
+              "300px", // 768px upwards
+              "300px", // 992px upwards
+            ]}
             rounded="18px"
           />
           <InputRightElement>
@@ -57,7 +71,7 @@ function ProductList({ products }) {
           "repeat(auto-fill, minmax(490px, 1fr))",
           "repeat(auto-fill, minmax(490px, 1fr))",
         ]}
-        gap={6}
+        gap={[2, 5, 5, 5]}
       >
         {productList}
       </Grid>
