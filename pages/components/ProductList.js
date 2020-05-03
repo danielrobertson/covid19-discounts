@@ -40,7 +40,7 @@ function ProductList({ products }) {
     <Stack>
       <Flex
         justifyContent="flex-end"
-        paddingTop={3}
+        paddingTop={5}
         paddingRight={["30px", "150px", "150px", "150px"]}
       >
         <InputGroup>
