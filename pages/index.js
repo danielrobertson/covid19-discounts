@@ -1,17 +1,10 @@
 import React from "react";
-import ReactGA from "react-ga";
 
 import { ThemeProvider, CSSReset } from "@chakra-ui/core";
 import Header from "./components/header";
 import ProductList from "./components/ProductList";
 
-function initializeReactGA() {
-  ReactGA.initialize("UA-144911480-1");
-  ReactGA.pageview("/");
-}
-
 function Index({ products }) {
-  initializeReactGA();
   return (
     <ThemeProvider>
       <CSSReset />
