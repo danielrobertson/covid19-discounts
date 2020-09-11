@@ -31,7 +31,7 @@ function ProductList({ products }) {
       }
     })
     .map((p) => (
-      <Box>
+      <Box key={p.url}>
         <Product key={p.url} product={p} />
       </Box>
     ));

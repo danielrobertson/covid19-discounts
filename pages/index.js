@@ -10,7 +10,19 @@ function initializeReactGA() {
   ReactGA.pageview("/");
 }
 
-function Index() {
+function Index({ products }) {
+  initializeReactGA();
+  return (
+    <ThemeProvider>
+      <CSSReset />
+      <Header />
+      <ProductList products={products} />
+    </ThemeProvider>
+  );
+}
+
+Index.getInitialProps = async () => {
+  // todo offload this to a database
   const products = [
     {
       url: "https://www.pluralsight.com/",
@@ -197,14 +209,7 @@ function Index() {
       tags: ["learning"],
     },
   ];
-  initializeReactGA();
-  return (
-    <ThemeProvider>
-      <CSSReset />
-      <Header />
-      <ProductList products={products} />
-    </ThemeProvider>
-  );
-}
+  return { products };
+};
 
 export default Index;
