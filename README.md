@@ -1,7 +1,7 @@
 # covid19-discounts
 A searchable collection of discounted products and services during COVID19 using Next.js and Chakra UI. 
 
-[Try it live](covid19-discounts.now.sh) 🎉
+[Try it live](https://covid19-discounts.now.sh/) 🎉
 
 ### TODO
 - ~Render grid discount of tiles~ 
