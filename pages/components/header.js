@@ -1,6 +1,5 @@
+import { Box, Flex, Heading, Link, Stack, Text } from "@chakra-ui/core";
 import React from "react";
-
-import { Box, Stack, Text, Link, Flex, Heading } from "@chakra-ui/core";
 
 function Header() {
   return (

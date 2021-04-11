@@ -1,6 +1,5 @@
+import { CSSReset, ThemeProvider } from "@chakra-ui/core";
 import React from "react";
-
-import { ThemeProvider, CSSReset } from "@chakra-ui/core";
 import Header from "./components/header";
 import ProductList from "./components/ProductList";
 

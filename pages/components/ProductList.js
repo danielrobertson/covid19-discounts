@@ -1,15 +1,14 @@
-import React from "react";
-
 import {
   Box,
-  Grid,
-  Input,
-  Stack,
   Flex,
-  InputRightElement,
-  InputGroup,
+  Grid,
   IconButton,
+  Input,
+  InputGroup,
+  InputRightElement,
+  Stack,
 } from "@chakra-ui/core";
+import React from "react";
 import Product from "./Product";
 
 function ProductList({ products }) {
