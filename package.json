@@ -17,8 +17,8 @@
     "@emotion/styled": "^10.0.27",
     "aws-sdk": "^2.663.0",
     "emotion-theming": "^10.0.27",
-    "next": "^9.5.1",
-    "react": "^16.13.1",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-transition-group": "^4.3.0"
